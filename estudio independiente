@@ -1,0 +1,8 @@
+@startuml
+class Temperatura {
+    - double celsius
+    + void setCelsius(double c)
+    + double getCelsius()
+    + double getFahrenheit()
+}
+@enduml
