@@ -1,0 +1,23 @@
+class Punto2D {
+    - x: double
+    - y: double
+    + Punto2D(x: double, y: double)
+    + getX(): double
+    + getY(): double
+    + setX(x: double): void
+    + setY(y: double): void
+}
+
+class Circunferencia {
+    - radio: double
+    - centro: Punto2D
+    + Circunferencia(radio: double, centro: Punto2D)
+    + getRadio(): double
+    + setRadio(radio: double): void
+    + getCentro(): Punto2D
+    + setCentro(centro: Punto2D): void
+    + calcularArea(): double
+    + calcularPerimetro(): double
+}
+
+Circunferencia --> Punto2D
