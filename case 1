@@ -1,0 +1,13 @@
+class Persona {
+    - nombre: String
+    - apellidos: String
+    - anoNacimiento: int
+    + Persona(nombre: String, apellidos: String, anoNacimiento: int)
+    + getNombre(): String
+    + getApellidos(): String
+    + getAnoNacimiento(): int
+    + setNombre(nombre: String): void
+    + setApellidos(apellidos: String): void
+    + setAnoNacimiento(anoNacimiento: int): void
+    + calcularEdad(): int
+}
